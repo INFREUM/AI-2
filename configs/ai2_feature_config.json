@@ -1,0 +1,29 @@
+{
+  "class_order": ["NORMAL", "D1", "D2", "D3"],
+  "random_state": 20261014,
+  "xgboost_parameters": {
+    "objective": "multi:softprob",
+    "num_class": 4,
+    "n_estimators": 200,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "min_child_weight": 1,
+    "reg_lambda": 1.0,
+    "tree_method": "hist",
+    "eval_metric": "mlogloss",
+    "n_jobs": 1
+  },
+  "models": {
+    "A": [
+      "acc01_rms_x", "acc01_rms_y", "acc01_rms_z", "acc02_rms_x", "acc02_rms_y", "acc02_rms_z",
+      "acc01_p2p_x", "acc01_p2p_y", "acc01_p2p_z", "acc02_p2p_x", "acc02_p2p_y", "acc02_p2p_z",
+      "acc01_dom_freq_x", "acc01_dom_freq_y", "acc01_dom_freq_z", "acc02_dom_freq_x", "acc02_dom_freq_y", "acc02_dom_freq_z"
+    ],
+    "B": ["acc01_damping_z", "acc02_damping_z"],
+    "C": ["cross_amp_ratio_L4_L2_z", "cross_torsion_y_z_L2"],
+    "D": ["load_level_kg", "load_position", "temperature_c"],
+    "E": ["decision_ratio"]
+  }
+}
