@@ -1,1 +1,1 @@
-"""INFREUM AI② structural-state classification package."""
+"""INFRIUM AI② structural-state classification package."""

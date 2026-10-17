@@ -115,7 +115,7 @@ Model C artifact와 현재 `baseline_manager.FEATURES`의 순서는 다음과 �
 
 ## 실제 입력 예시
 
-[BOX 합성 예시](/Users/gnswl/Documents/INFREUM/ai2/examples/ai1_to_ai2_box.json), [TRUSS 합성 예시](/Users/gnswl/Documents/INFREUM/ai2/examples/ai1_to_ai2_truss.json)를 참조한다. 두 파일의 Feature 값 `0.0`은 계약 형식 검증용 placeholder이며 실제 센서값이 아니다.
+[BOX 합성 예시](../examples/ai1_to_ai2_box.json), [TRUSS 합성 예시](../examples/ai1_to_ai2_truss.json)를 참조한다. 두 파일의 Feature 값 `0.0`은 계약 형식 검증용 placeholder이며 실제 센서값이 아니다.
 
 ## 처리 정책
 

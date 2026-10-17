@@ -84,7 +84,7 @@ def create_app(*, processor: RealtimeRiskProcessor | None = None, max_request_by
             app.state.processor = RealtimeRiskProcessor(baseline_lookup=load_baseline_lookup())
         yield
 
-    app = FastAPI(title="INFREUM AI② ingress", version="0.1.0", lifespan=lifespan)
+    app = FastAPI(title="INFRIUM AI② ingress", version="0.1.0", lifespan=lifespan)
     if processor is not None:
         app.state.processor = processor
 

@@ -75,4 +75,4 @@ HTTP ingress에서 `ai1.warming_up=true`면 `AI1_WARMING_UP` 상태와 `ai1_stat
 
 ## 합성 출력 예시
 
-[BOX 합성 출력](/Users/gnswl/Documents/INFREUM/ai2/examples/ai2_to_backend_box.json), [TRUSS 합성 출력](/Users/gnswl/Documents/INFREUM/ai2/examples/ai2_to_backend_truss.json)은 현 구현을 실행해 확인한 반환 구조를 바탕으로 만든 **합성 계약 예시**다. 가독성을 위해 `feature_changes`는 22개 중 한 Feature만 표시했으며, 실제 런타임은 22개 전체를 반환한다. 수치와 ID는 실제 HW 결과가 아니다.
+[BOX 합성 출력](../examples/ai2_to_backend_box.json), [TRUSS 합성 출력](../examples/ai2_to_backend_truss.json)은 현 구현을 실행해 확인한 반환 구조를 바탕으로 만든 **합성 계약 예시**다. 가독성을 위해 `feature_changes`는 22개 중 한 Feature만 표시했으며, 실제 런타임은 22개 전체를 반환한다. 수치와 ID는 실제 HW 결과가 아니다.
