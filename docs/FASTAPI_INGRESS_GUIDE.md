@@ -1,4 +1,4 @@
-# INFREUM AI② FastAPI 수신 서버 안내
+# INFRIUM AI② FastAPI 수신 서버 안내
 
 ## 실행
 

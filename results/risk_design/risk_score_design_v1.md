@@ -1,4 +1,4 @@
-# INFREUM AI② RiskScore 기술 설계 v1
+# INFRIUM AI② RiskScore 기술 설계 v1
 
 ## 1. 목적과 범위
 
